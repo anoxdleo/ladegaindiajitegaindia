@@ -1,0 +1,29 @@
+body{
+	background-color: #ECECEC;
+}
+.mapdiv{
+	width: 100%;
+	margin:0 auto;
+	max-width: 400px;
+	height: 50vh;
+	min-height: 200px;
+}
+
+.mapdiv path {
+	fill: #ACD1E9;
+	stroke: #6D929B;
+	stroke-width: 2px;
+	transition: fill 0.2s;
+}
+
+/* hover state */
+.map-highlight:hover path {
+  fill: #FF0000 !important;
+  stroke: #5F9EA0 !important;
+  stroke-width: 2.5px !important;
+}
+
+.cols-md-8{
+  background: red;
+  height: 100vh;
+}

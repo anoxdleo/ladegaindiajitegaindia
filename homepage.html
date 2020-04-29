@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+  <title>IndiaFightsCorona</title>
+  <link rel = "icon" href = "india.png"    type = "image/x-icon">
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- overlayScrollbars -->
+  <link rel="stylesheet" href="plugins/overlayScrollbars/css/OverlayScrollbars.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+  <!-- Google Font: Source Sans Pro -->
+  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="homepage.css">
+   <script src="js/jssor.slider-28.0.0.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        window.jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:500,d:1000,x:0,e:{x:6}}],
+              [{b:-1,d:1,x:100,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+              [{b:-1,d:1,x:200,p:{x:{d:1,dO:9}}},{b:0,d:2000,x:0,e:{x:6},p:{x:{dl:0.1}}}],
+              [{b:-1,d:1,rX:20,rY:90},{b:0,d:4000,rX:0,e:{rX:1}}],
+              [{b:-1,d:1,rY:-20},{b:0,d:4000,rY:-90,e:{rY:7}}],
+              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:3000,sX:1,sY:1,e:{sX:1,sY:1}}],
+              [{b:-1,d:1,sX:2,sY:2},{b:1000,d:5000,sX:1,sY:1,e:{sX:3,sY:3}}],
+              [{b:-1,d:1,tZ:300},{b:0,d:2000,o:1},{b:3500,d:3500,tZ:0,e:{tZ:1}}],
+              [{b:-1,d:1,x:20,p:{x:{o:33,r:0.5}}},{b:0,d:1000,x:0,o:0.5,e:{x:3,o:1},p:{x:{dl:0.05,o:33},o:{dl:0.02,o:68,rd:2}}},{b:1000,d:1000,o:1,e:{o:1},p:{o:{dl:0.05,o:68,rd:2}}}],
+              [{b:-1,d:1,da:[0,700]},{b:0,d:600,da:[700,700],e:{da:1}}],
+              [{b:600,d:1000,o:0.4}],
+              [{b:-1,d:1,da:[0,400]},{b:200,d:600,da:[400,400],e:{da:1}}],
+              [{b:800,d:1000,o:0.4}],
+              [{b:-1,d:1,sX:1.1,sY:1.1},{b:0,d:1600,o:1},{b:1600,d:5000,sX:0.9,sY:0.9,e:{sX:1,sY:1}}],
+              [{b:0,d:1000,o:1,p:{o:{o:4}}}],
+              [{b:1000,d:1000,o:1,p:{o:{o:4}}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: 1,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$,
+                $SpacingX: 16,
+                $SpacingY: 16
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*#region responsive code begin*/
+
+            var MAX_WIDTH = 980;
+
+            function ScaleSlider() {
+                var containerElement = jssor_1_slider.$Elmt.parentNode;
+                var containerWidth = containerElement.clientWidth;
+
+                if (containerWidth) {
+
+                    var expectedWidth = Math.min(MAX_WIDTH || containerWidth, containerWidth);
+
+                    jssor_1_slider.$ScaleWidth(expectedWidth);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+
+            ScaleSlider();
+
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*#endregion responsive code end*/
+        };
+    </script>
+    
+    <style>
+        /*jssor slider loading skin double-tail-spin css*/
+        .jssorl-004-double-tail-spin img {
+            animation-name: jssorl-004-double-tail-spin;
+            animation-duration: 1.6s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+        }
+
+        @keyframes jssorl-004-double-tail-spin {
+            from { transform: rotate(0deg); }
+            to { transform: rotate(360deg); }
+        }
+
+        /*jssor slider bullet skin 031 css*/
+        .jssorb031 {position:absolute;}
+        .jssorb031 .i {position:absolute;cursor:pointer;}
+        .jssorb031 .i .b {fill:#000;fill-opacity:0.6;stroke:#fff;stroke-width:1600;stroke-miterlimit:10;stroke-opacity:0.8;}
+        .jssorb031 .i:hover .b {fill:#fff;fill-opacity:1;stroke:#000;stroke-opacity:1;}
+        .jssorb031 .iav .b {fill:#fff;stroke:#000;stroke-width:1600;fill-opacity:.6;}
+        .jssorb031 .i.idn {opacity:.3;}
+
+        /*jssor slider arrow skin 051 css*/
+        .jssora051 {display:block;position:absolute;cursor:pointer;}
+        .jssora051 .a {fill:none;stroke:#fff;stroke-width:360;stroke-miterlimit:10;}
+        .jssora051:hover {opacity:.8;}
+        .jssora051.jssora051dn {opacity:.5;}
+        .jssora051.jssora051ds {opacity:.3;pointer-events:none;}
+    </style>
+</head>
+<body style="background-color: #ECECEC">
+   <div class="w3-container" style="background-color: #669999;" >
+      <h1 style="text-shadow:1px 1px 0 #444 ;text-align: center;padding-top: 15px;color: white;">Ladega India Jitega India  <img src="india.png" height="50px" style="padding-top: 0.5px; "></h1>
+    </div>
+    <a href="helpline.html"><img src="helpline.png" border="0" title="helpline" width="50" height="50" class="rounded float-right img-fluid">  
+      </a></i>
+      <h2 style="text-align: center;padding-top: 20px;color: red;">COVID-19 LIVE UPDATES</h2>
+      <br>
+      <a href="helpline.html"><img src="info.png" border="0" title="NOTE: SOURCES OF INFORMATION
+            https://api.covid19india.org/ ,
+            https://api.thevirustracker.com/free-api" width="50" height="50" class="rounded float-right img-fluid" style="color: grey;">  
+      </a></i>
+      <table class="table table-responsive">
+        
+          
+          <div class="row d-flex justify-content-center">
+          <form>  <div class="cols-md-6 mt-4"> <div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #AD235E; border-color: #AD235E" formaction="http://localhost/AdminLTE-3.0.2/horibarchart.php">World Countries data</button></div></div></form>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #4FD5D6;border-color: #4FD5D6" formaction="http://localhost/AdminLTE-3.0.2/chart.php">Total Cases in India</button></div></div></form>
+            <form> <div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #EEDB00; border-color: #EEDB00" formaction="http://localhost/AdminLTE-3.0.2/map.html">State and District Data</button> </div></div></form>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #7BB31A; border-color: #7BB31A"
+            formaction="http://localhost/AdminLTE-3.0.2/casetimeseries.php">Case-time series</button> </div></div></form>
+          </div>
+          <form><div class="row d-flex justify-content-center">
+            <div class="cols-md-6 mt-4"> <div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #E4001B;border-color: #E4001B"
+            formaction="http://localhost/adminLTE-3.0.2/barchart.php">Major hotspot Cities</button></div></div></form>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #7ABA7A;border-color: #7ABA7A"
+            formaction="http://localhost/AdminLTE-3.0.2/mini.php">Cities having Minimum-cases</button></div></div></form>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #028482;border-color: #028482"
+            formaction="http://localhost/AdminLTE-3.0.2/testingdata.php">State-wise testing Report</button></div></div></form>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #E47297; border-color: #E47297" formaction="http://localhost/AdminLTE-3.0.2/pati.php">Patients data chart</button></div></div></form>
+          </div>
+          <div class="row d-flex justify-content-center">
+            <div class="cols-md-6 mt-4"> <div class="col"></div></div>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #336699;border-color:  #336699"
+            formaction="http://localhost/AdminLTE-3.0.2/newtest2.php">Testing facilities region-wise</button></div></div></form>
+            <form><div class="cols-md-6 mt-4"><div class="col"><button type="submit" class="btn btn-block btn-primary btn-lg hvr-pulse" style="background-color: #BB772E;border-color:  #BB772E"
+            formaction="http://localhost/AdminLTE-3.0.2/info/sdemo.php">Information on Covid-19</button> </div></div></form>
+            <div class="cols-md-6 mt-4"><div class="col"></div></div>
+          </div>
+      </table>
+      <div id="jssor_1" style="position:relative;margin:0 auto;top:0px;left:0px;width:980px;height:380px;overflow:hidden;visibility:hidden;">
+        <!-- Loading Screen -->
+        <div data-u="loading" class="jssorl-004-double-tail-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+            <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/double-tail-spin.svg" />
+        </div>
+        <div data-u="slides" style="cursor:default;position:relative;top:0px;left:0px;width:980px;height:380px;overflow:hidden;">
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/7.jpg" />
+                
+            </div>
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/1.jpg" />
+                
+            </div>
+            
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/2.jpg" />
+                
+            </div>
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/3.jpg" />
+                
+            </div>
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/4.jpg" />
+                
+            </div>
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/5.jpg" />
+                
+            </div>
+            <div style="background-color:#000000;">
+                <img data-u="image" src="img/6.jpg" />
+                
+            </div>
+        </div><a data-scale="0" href="https://www.jssor.com" style="display:none;position:absolute;">slider html</a>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb031" style="position:absolute;bottom:16px;right:16px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+            <div data-u="prototype" class="i" style="width:13px;height:13px;">
+                <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                </svg>
+            </div>
+        </div>
+        <!-- Arrow Navigator -->
+        <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+            </svg>
+        </div>
+        <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+            <svg viewbox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+            </svg>
+        </div>
+    </div>
+    <script type="text/javascript">jssor_1_slider_init();
+    </script>
+<br><br>
+</body>
+
+</html>
+<footer id="sticky-footer" class="py-4 bg-secondary text-white-50" style="bottom: 0; background-color: #669999">
+    
+      <div class="container text-left" >
+        <strong><i>Government Girls Polytechnic Ahmedabad (CE Dept)</i><br>
+    </strong>
+      <b>Developed By-</b>Neer Choksi,Jhanvi Jethwa,Darshika Sathwara<br>
+      <b>With Support Of-</b>Drashti Baldev
+   
+</footer>
+</div>
